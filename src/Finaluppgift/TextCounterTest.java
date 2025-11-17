@@ -8,7 +8,7 @@ public class TextCounterTest {
 
     // Test case to verify that lines and characters are counted correctly
     @Test
-    public void testAddLine() {
+    public void testMultipleLines() {
         TextCounter counter = new TextCounter();  // Create a new LineCounter instance
         counter.addLine("Mambo");  // Add a line with the word "Mambo"
         counter.addLine("Thomas");  // Add another line with the word "Thomas"
@@ -20,7 +20,7 @@ public class TextCounterTest {
 
     // Test case to check how the program handles an empty line
     @Test
-    public void testEmptyInput() {
+    public void testEmptyLines() {
         TextCounter counter = new TextCounter();  // Create a new LineCounter instance
         counter.addLine("");  // Add an empty line
 
@@ -33,11 +33,11 @@ public class TextCounterTest {
     @Test
     public void testStopCondition() {
         TextCounter counter = new TextCounter();  // Create a new LineCounter instance
-        counter.addLine("This is a test");  // Add a normal line
+        counter.addLine("Inspiring teacher");  // Add a normal line
         counter.addLine("stop");  // Add the "stop" line (this is just counted, but the program stops after this)
 
         // Check that the program correctly counts 2 lines (even though the last is "stop")
         assertEquals(2, counter.getLineCount());  // Two lines should be counted, including the "stop" line
-        assertEquals(18, counter.getCharacterCount());  // "This is a test" has 14 characters
+        assertEquals(21, counter.getCharacterCount());  // "Inspiring teacher" has 17 characters
     }
 }
