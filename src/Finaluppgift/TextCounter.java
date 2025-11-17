@@ -1,9 +1,9 @@
-// This class will manage the line count and the character count.
+// This class will manage the text/line count and the character count.
 package Finaluppgift;
 
 public class TextCounter {
 
-    private int lineCount;  // Variable to store the number of lines
+    private int lineCount;  // Variable to store the number of lines(text)
     private int characterCount;  // Variable to store the total number of characters
 
     // Constructor to initialize counters
