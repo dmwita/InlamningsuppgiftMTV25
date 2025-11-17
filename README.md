@@ -1,15 +1,15 @@
 **OVERVIEW**
-This project is a Java console application that reads lines of text from the user until the user types the word "stop". After stopping, the program prints:
+- This project is a Java console application that reads lines of text from the user until the user types the word "stop". After stopping, the program prints:
 - The number of lines(text) entered
 - The total number of characters entered  excluding the line that contains "stop"
   
 **TWO CLASSES**
-The project is structured into two classes:
+- The project is structured into two classes:
 1. TextCounter :- Tracks lines and character counts.
 2. TextReader :- Reads user input, detects the stop command, and outputs the final result.
 
 **THREE TEST CASES**
-JUnit test cases are included to verify the correctness of the TextCounter class.
+- JUnit test cases are included to verify the correctness of the TextCounter class.
 
 
 **How It Works**
