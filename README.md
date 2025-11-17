@@ -14,9 +14,9 @@ JUnit test cases are included to verify the correctness of the TextCounter class
 
 **How It Works**
 1. Run the program
-When executed, the program prompts:
-Enter text (type 'stop' to finish):
-You can type any text followed by stop if you want to finish.
+- When executed, the program prompts:
+- Enter text (type 'stop' to finish):
+- You can type any text followed by stop if you want to finish.
 
 **Example:**
 Mambo
