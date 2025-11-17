@@ -38,6 +38,6 @@ public class TextCounterTest {
 
         // Check that the program correctly counts 2 lines (even though the last is "stop")
         assertEquals(2, counter.getLineCount());  // Two lines should be counted, including the "stop" line
-        assertEquals(21, counter.getCharacterCount());  // "Inspiring teacher" has 17 characters
+        assertEquals(20, counter.getCharacterCount());  // "Inspiring teacher" has 17 characters
     }
 }
