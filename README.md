@@ -17,7 +17,8 @@ JUnit test cases are included to verify the correctness of the TextCounter class
 When executed, the program prompts:
 Enter text (type 'stop' to finish):
 You can type any text followed by stop if you want to finish.
-Example:
+
+**Example:**
 Mambo
 Thomas
 Inspiring teacher
