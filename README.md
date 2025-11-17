@@ -19,10 +19,10 @@ JUnit test cases are included to verify the correctness of the TextCounter class
 - You can type any text followed by stop if you want to finish.
 
 **Example:**
-Mambo
-Thomas
-Inspiring teacher
-stop
+- Mambo
+- Thomas
+- Inspiring teacher
+- stop
 
 **OUTPUT:**
 Number of lines: 3
@@ -34,6 +34,6 @@ Total characters: 25 (This depends on the user input).
 The project includes three JUnit test cases that check:
 - Counting multiple lines
 - Counting empty lines
-- Stop condition
+- The Stop condition
 
 
