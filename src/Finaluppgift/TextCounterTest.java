@@ -8,7 +8,7 @@ public class TextCounterTest {
 
     // Test case to verify that lines and characters are counted correctly
     @Test
-    public void testMultipleLines() {
+    public void testMultipleLine() {
         TextCounter counter = new TextCounter();  // Create a new LineCounter instance
         counter.addLine("Mambo");  // Add a line with the word "Mambo"
         counter.addLine("Thomas");  // Add another line with the word "Thomas"
