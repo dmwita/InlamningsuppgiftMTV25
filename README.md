@@ -25,8 +25,8 @@ JUnit test cases are included to verify the correctness of the TextCounter class
 - stop
 
 **OUTPUT:**
-Number of lines: 3
-Total characters: 25 (This depends on the user input).
+- Number of lines: 3
+- Total characters: 25 (This depends on the user input).
 
 
 **@Testing**
