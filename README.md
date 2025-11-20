@@ -54,7 +54,7 @@ These are updated JUnit tests cases
 - Behaviour of the "stop" command
   
 **Summary part 3: How it works**
-The program reads lines until the user types "stop", and all text processing is handled by the logic class(TextCounter). It counts lines, characters, words, and finds the longest word, while TextReader handles the input or output. When "stop" is detected, the program stops reading and prints the final results.
+- The program reads lines until the user types "stop", and all text processing is handled by the logic class(TextCounter). It counts lines, characters, words, and finds the longest word, while TextReader handles the input or output. When "stop" is detected, the program stops reading and prints the final results.
 
   
 
