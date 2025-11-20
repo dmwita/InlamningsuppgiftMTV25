@@ -1,4 +1,4 @@
-This repository contains my solution for Part 2 and Part 3 of the School Java programming assignment.The project is built using OOP, JUnit, and version control(Github).
+This repository contains my solution for **Part 2** and **Part 3** of the School Java programming assignment.The program is built using OOP, JUnit, and version control(Github).
 
 **OVERVIEW**
 - This program is a Java console application that reads lines of text from the user until the user types the word "stop".
