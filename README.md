@@ -1,6 +1,6 @@
 **OVERVIEW**
 - This project is a Java console application that reads lines of text from the user until the user types the word "stop". After stopping, the program prints:
-- The number of lines(text) entered
+- The number of lines(text) entered and
 - The total number of characters entered  excluding the line that contains "stop"
   
 **TWO CLASSES**
