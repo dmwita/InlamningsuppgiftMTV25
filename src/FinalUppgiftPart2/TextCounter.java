@@ -1,5 +1,5 @@
 // This class will manage the text/line count and the character count.
-package Finaluppgift;
+package FinalUppgiftPart2;
 
 public class TextCounter {
 

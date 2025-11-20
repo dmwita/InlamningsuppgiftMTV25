@@ -1,6 +1,6 @@
 //This class handles user input and stops when the word "stop" is typed.
 
-package Finaluppgift;
+package FinalUppgiftPart2;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 //The following tests ensure that the logic for counting lines of text and characters is correct.
-package Finaluppgift;
+package FinalUppgiftPart2;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
