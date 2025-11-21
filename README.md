@@ -69,16 +69,16 @@ The TextReader class does not check the word stop itself, it asks the logic clas
   TextCounter    ------->   (Logic class)
   processLine()    
         │
-        │ checks:
+      checks:
         │  if line.equalsIgnoreCase("stop")
         
   stopTyped = true   -------> (logic decides stop)
   return; (stop counting)  
-  
-        │ TextReader asks:
-        │   counter.stopWasTyped() ?
+        │ 
+    TextReader asks:
+        │ counter.stopWasTyped() ?
         │
-        └ (if) YES → TextReader stops reading input
+      (if) YES → TextReader stops reading input
         │
     Program Ends
 
