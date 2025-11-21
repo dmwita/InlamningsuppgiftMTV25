@@ -44,7 +44,7 @@ The program includes three JUnit test cases that check:
 In this part we add new functionality
 - Number of words
 - The longest word
-NB: The "stop" is included in the logic class(TextCounter)
+**NB**: The "stop" is included in the logic class(TextCounter)
 
 **@Testing part 3**
 These are updated JUnit tests cases
@@ -54,7 +54,37 @@ These are updated JUnit tests cases
 - Behaviour of the "stop" command
   
 **Summary part 3: How it works**
-- The program reads lines until the user types "stop", and all text processing is handled by the logic class(TextCounter). It counts lines, characters, words, and finds the longest word, while TextReader handles the input or output. When "stop" is detected, the program stops reading and prints the final results.
+- The program reads lines until the user types "stop", and all text processing is handled by the logic class(TextCounter). It counts lines, characters, words, and finds the longest word, while TextReader handles the input or output.
+- When "stop" is detected, the program stops reading and prints the final results.
+
+  **Inshort**:
+ - In this program, TextCounter class is responsible for all logic. When the user types stop, the logic class(TextCounter) detects it and sets a flag called stopTyped.
+The TextReader class does not check the word stop itself, it asks the logic class whether stop was typed.
+
+**Diagram**
+
+   TextReader    ----->   (Input/Output class)
+
+        │ reads line from user
+        │
+
+  TextCounter    ------->   (Logic class)
+  processLine()    
+        │
+        │ checks:
+        │  if line.equalsIgnoreCase("stop")
+        
+  stopTyped = true   -------> (logic decides stop)
+  return; (stop counting)  
+        
+        │
+        │ TextReader asks:
+        │   counter.stopWasTyped() ?
+        │
+        └──(if) YES → TextReader stops reading input
+        │
+    program ends
+
 
   
 
