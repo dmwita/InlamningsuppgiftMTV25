@@ -86,6 +86,8 @@ The TextReader class does not check the word stop itself, it asks the logic clas
     program ends
 
 
+
+
   
 
 
