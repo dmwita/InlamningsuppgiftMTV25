@@ -35,7 +35,7 @@ public class TextCounter {
         // Count characters
         charCount += line.length();
 
-        // Split on ANY amount of whitespace, not just one space
+        // Split on any amount of whitespace, not just one space
         String[] words = line.trim().split("\\s+");
 
         for (String w : words) {
@@ -44,7 +44,7 @@ public class TextCounter {
 
             wordCount++;
 
-            // Track longest word
+            // Track the longest word
             if (w.length() > longestWord.length()) {
                 longestWord = w;
             }
