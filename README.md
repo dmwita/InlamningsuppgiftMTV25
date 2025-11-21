@@ -61,13 +61,11 @@ These are updated JUnit tests cases
  - In this program, TextCounter class is responsible for all logic. When the user types stop, the logic class(TextCounter) detects it and sets a flag called stopTyped.
 The TextReader class does not check the word stop itself, it asks the logic class whether stop was typed.
 
-**Diagram**
+**Diagram**: For reference purposes
 
    TextReader    ----->   (Input/Output class)
-
         │ reads line from user
         │
-
   TextCounter    ------->   (Logic class)
   processLine()    
         │
@@ -76,14 +74,13 @@ The TextReader class does not check the word stop itself, it asks the logic clas
         
   stopTyped = true   -------> (logic decides stop)
   return; (stop counting)  
-        
-        │
+  
         │ TextReader asks:
         │   counter.stopWasTyped() ?
         │
-        └──(if) YES → TextReader stops reading input
+        └ (if) YES → TextReader stops reading input
         │
-    program ends
+    Program Ends
 
 
 
