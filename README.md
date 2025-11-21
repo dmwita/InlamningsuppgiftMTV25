@@ -36,7 +36,7 @@ This repository contains my solution for **Part 2** and **Part 3** of the School
 **@Testing: part 2**
 
 The program includes three JUnit test cases that check:
-- Counting Added lines
+- Counting multiple lines
 - Counting empty lines
 - The Stop condition
 
