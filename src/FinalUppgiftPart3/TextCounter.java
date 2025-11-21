@@ -51,7 +51,7 @@ public class TextCounter {
         }
     }
 
-    // Getters
+    // Get/return desired outcome
     public boolean stopWasTyped() {
         return stopTyped;
     }
